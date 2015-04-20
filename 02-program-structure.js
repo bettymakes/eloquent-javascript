@@ -153,7 +153,7 @@ for ( var row = 0; row < 8; row++ ) {
   // Determines whether the row is even or odd and sets the first character
   // in that row's line
   if ( row % 2 === 0 ) {
-    board += "@"
+    board += "#"
   } else {
     board += " "
   }
@@ -166,10 +166,10 @@ for ( var row = 0; row < 8; row++ ) {
 
     // Looks at the last character in the board and adds the opposite character
     var lastCharacter = board[board.length-1];
-    if(lastCharacter === "@") {
+    if(lastCharacter === "#") {
       board += " ";
     } else {
-      board += "@";
+      board += "#";
     }
   }
 
@@ -194,17 +194,17 @@ var size = 8,
 
 for ( var row = 0; row < size; row ++ ) {
   if ( row % 2 === 0 ) {
-    board += "@"
+    board += "#"
   } else {
-    board += "-"
+    board += " "
   }
 
   for ( var column = 0; column < size-1; column++ ) {
         var lastCharacter = board[board.length-1];
-    if(lastCharacter === "@") {
-      board += "-";
+    if(lastCharacter === "#") {
+      board += " ";
     } else {
-      board += "@";
+      board += "#";
     }
   }
   board += "\n";
