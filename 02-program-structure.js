@@ -148,14 +148,14 @@ for (var i = 1; i < 101; i ++) {
 var board = "";
 
 // Loops over rows
-for ( var row = 0; row < 8; row ++ ) {
+for ( var row = 0; row < 8; row++ ) {
 
   // Determines whether the row is even or odd and sets the first character
   // in that row's line
   if ( row % 2 === 0 ) {
     board += "@"
   } else {
-    board += "-"
+    board += " "
   }
 
   // Loops over each column in the row
@@ -167,7 +167,7 @@ for ( var row = 0; row < 8; row ++ ) {
     // Looks at the last character in the board and adds the opposite character
     var lastCharacter = board[board.length-1];
     if(lastCharacter === "@") {
-      board += "-";
+      board += " ";
     } else {
       board += "@";
     }
