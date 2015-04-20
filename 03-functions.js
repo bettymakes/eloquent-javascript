@@ -118,15 +118,15 @@ function isEven(number) {
   // The absolute value indicates how far away the number is from 0. That value
   // is always a positive number.
 
-  /*
-    More info on Absolute Values:
-
-      -5 -4 -3 -2 -1  0  1  2  3  4  5
-      ________________________________
-          ^ - - - - - ^
-              |-4|
-      Absolute Value of -4 is 4.
-  */
+ /* --------------------------------------
+  |    Absolute Value Example Diagram:    |
+  |                                       |
+  |    -5 -4 -3 -2 -1  0  1  2  3  4  5   |
+  |    ________________________________   |
+  |        ^ - - - - - ^                  |
+  |            |-4|                       |
+  |       Absolute Value of -4 is 4.      |
+   -------------------------------------- */
 
   if(number < 0) {
     number = Math.abs(number);
