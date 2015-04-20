@@ -6,7 +6,6 @@
 
 /*
   MINIMUM
-
   The previous chapter introduced the standard function Math.min that returns 
   its smallest argument. We can do that ourselves now. Write a function min 
   that takes two arguments and returns their minimum.
@@ -33,7 +32,6 @@ function min (a, b) {
 
 /*
   RECURSION (Part 1)
-
   We’ve seen that % (the remainder operator) can be used to test whether a 
   number is even or odd by using % 2 to check whether it’s divisible by two. 
   Here’s another way to define whether a positive whole number is even or odd:
@@ -75,7 +73,6 @@ function isEven(number) {
 
 /*
   RECURSION (Part 2)
-
   Test it on 50 and 75. See how it behaves on -1. Why? Can you think of a 
   way to fix this?
 
@@ -163,7 +160,6 @@ function isEven(number) {
 
 /*
   BEAN COUNTING (Part 1)
-
   You can get the Nth character, or letter, from a string by writing 
   "string".charAt(N), similar to how you get its length with "s".length. The 
   returned value will be a string containing only one character (for example, "b"). 
@@ -201,7 +197,6 @@ function countBs(string) {
 
 /*
   BEAN COUNTING (Part 2)
-
   Next, write a function called countChar that behaves like countBs, except 
   it takes a second argument that indicates the character that is to be counted 
   (rather than counting only uppercase “B” characters). Rewrite countBs to 
@@ -229,7 +224,6 @@ function countChar(string, char) {
 
 /*
   BEAN COUNTING (Part 3)
-
   Rewrite countBs to make use of this new function.
 */  
 
